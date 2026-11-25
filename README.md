@@ -40,7 +40,7 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
 
 ## Funcionalidades
 
-| | |
+| Recurso | O que faz |
 |---|---|
 | 💳 **Contas e cartões** | Conta corrente, poupança, dinheiro e investimentos; cartões de crédito com faturas, fechamento, parcelas futuras, antecipação, limite e cartões físicos. |
 | 🧾 **Lançamentos** | Receitas, despesas e transferências; parcelados e recorrentes; comprovantes anexados (cifrados); busca avançada e filtros salvos. |
