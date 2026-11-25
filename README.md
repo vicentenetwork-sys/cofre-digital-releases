@@ -53,7 +53,7 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
 | 👨‍👩‍👧 **Para a família** | Vários usuários, com acesso só a algumas contas, centros ou projetos; verificação em duas etapas e log de auditoria. |
 | 💾 **Backup** | Automático todo dia e cifrado; cópia externa em pendrive, HD, pasta de nuvem ou S3/R2; restauração pela própria tela. |
 | 🌎 **Multimoeda** | Contas em outras moedas, com cotações cadastradas. |
-| 🌓 **Do seu jeito** | Tema escuro e claro, telas pensadas também para o celular. |
+| 🎨 **Aparência** | Modo escuro, claro ou automático e sete perfis de cores (Cofre, Homem de Ferro, Capitão América, Thor, Hulk, Viúva Negra e Gavião Arqueiro). Receitas, despesas e transferências mantêm as cores de sempre. |
 
 ## Fotos
 
@@ -77,7 +77,14 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
     <td width="50%"><img src="imagens/visao-geral-claro.png" alt="Tema claro"><br><sub><b>Tema claro</b>.</sub></td>
     <td width="50%"><img src="imagens/lancamentos-claro.png" alt="Lançamentos no tema claro"><br><sub>Lançamentos no tema claro.</sub></td>
   </tr>
+  <tr>
+    <td width="50%"><img src="imagens/perfil-homem-de-ferro.png" alt="Perfil Homem de Ferro"><br><sub>Perfil de cores <b>Homem de Ferro</b>.</sub></td>
+    <td width="50%"><img src="imagens/perfil-capitao-america.png" alt="Perfil Capitão América"><br><sub>Perfil de cores <b>Capitão América</b>.</sub></td>
+  </tr>
 </table>
+
+<p align="center"><img src="imagens/aparencia.png" alt="Configurações › Aparência" width="100%"></p>
+<p align="center"><sub><b>Aparência</b>: modo escuro, claro ou automático e sete perfis de cores.</sub></p>
 
 <p align="center">
   <img src="imagens/celular-visao-geral.png" alt="Celular: visão geral" width="30%">
