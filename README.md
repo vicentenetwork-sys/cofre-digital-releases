@@ -6,7 +6,7 @@
   <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/vicentenetwork-sys/cofre-digital-releases?label=vers%C3%A3o&color=00b38a&labelColor=1b252b" alt="Versão"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1b252b?labelColor=0d1215" alt="Windows 10 e 11">
   <img src="https://img.shields.io/badge/Linux-Docker%20%7C%20x64%20%7C%20arm64-1b252b?labelColor=0d1215" alt="Linux: Docker, x64 e arm64">
-  <img src="https://img.shields.io/badge/celular-app%20instal%C3%A1vel-1b252b?labelColor=0d1215" alt="Celular: app instalável">
+  <img src="https://img.shields.io/badge/Android-10%2B%20(APK)-1b252b?labelColor=0d1215" alt="Android 10 ou mais novo (APK)">
   <img src="https://img.shields.io/badge/dados-criptografados-00b38a?labelColor=0d1215" alt="Dados criptografados">
   <img src="https://img.shields.io/badge/idioma-portugu%C3%AAs-1b252b?labelColor=0d1215" alt="Idioma: português">
 </p>
@@ -33,7 +33,7 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
     </td>
     <td width="33%" valign="top">
       <h3>📱 Em qualquer lugar</h3>
-      Use no PC e no celular, como app instalável, pela rede de casa. Ou coloque numa VPS atrás da Cloudflare e acesse de onde estiver, com a família.
+      Use no PC e no celular, com o app para Android, pela rede de casa. Ou coloque numa VPS atrás da Cloudflare e acesse de onde estiver, com a família.
     </td>
   </tr>
 </table>
@@ -53,6 +53,7 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
 | 👨‍👩‍👧 **Para a família** | Vários usuários, com acesso só a algumas contas, centros ou projetos; verificação em duas etapas e log de auditoria. |
 | 💾 **Backup** | Automático todo dia e cifrado; cópia externa em pendrive, HD, pasta de nuvem ou S3/R2; restauração pela própria tela. |
 | 🌎 **Multimoeda** | Contas em outras moedas, com cotações cadastradas. |
+| 📱 **App Android** | Conecta ao seu Cofre com um QR code, abre com a digital, salva exportações em Downloads e imprime relatórios. Atalho de lançamento rápido no ícone. Os dados continuam só no seu Cofre. |
 | 🎨 **Aparência** | Modo escuro, claro ou automático e sete perfis de cores (Cofre, Homem de Ferro, Capitão América, Thor, Hulk, Viúva Negra e Gavião Arqueiro). Receitas, despesas e transferências mantêm as cores de sempre. |
 
 ## Fotos
@@ -86,12 +87,15 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
 <p align="center"><img src="imagens/aparencia.png" alt="Configurações › Aparência" width="100%"></p>
 <p align="center"><sub><b>Aparência</b>: modo escuro, claro ou automático e sete perfis de cores.</sub></p>
 
+<p align="center"><img src="imagens/android.png" alt="App Android: conectar, visão geral, lançamento rápido, exportação e impressão" width="100%"></p>
+<p align="center"><sub><b>App Android</b>: conectar com QR code, tela cheia, lançamento rápido, exportações e impressão.</sub></p>
+
 <p align="center">
   <img src="imagens/celular-visao-geral.png" alt="Celular: visão geral" width="30%">
   <img src="imagens/celular-lancamentos.png" alt="Celular: lançamentos" width="30%">
   <img src="imagens/celular-cartoes.png" alt="Celular: cartões" width="30%">
 </p>
-<p align="center"><sub>No celular, como app instalável.</sub></p>
+<p align="center"><sub>No navegador do celular, como app instalável.</sub></p>
 
 <p align="center"><sub>Todas as imagens usam dados fictícios.</sub></p>
 
@@ -108,7 +112,13 @@ O **Cofre Digital** é um controle financeiro pessoal e familiar completo que ro
 
 ### 📱 No celular
 
-Em **Configurações › Rede**, ligue "Acesso pela rede de casa". A tela mostra o endereço com QR code e o passo a passo; depois, no celular, use **Instalar app** ou **Adicionar à Tela de Início**.
+**Android 10 ou mais novo:** baixe `CofreDigital-<versão>-android.apk` da [versão mais nova](../../releases/latest) e instale (na primeira vez, o celular pede para permitir instalar apps desta fonte).
+
+1. No PC, em **Configurações › Rede**, ligue "Acesso pela rede de casa" (num servidor, o Cofre já está acessível).
+2. Abra **Configurações › Rede › App Android**: a tela mostra um QR code.
+3. No app, toque em **Ler QR code**. Pela rede de casa, o QR leva a impressão digital do certificado do seu Cofre, e o app só aceita esse certificado. Numa VPS, também dá para digitar o endereço.
+
+Sem o app (iPhone, por exemplo), abra o endereço no navegador do celular e use **Instalar app** ou **Adicionar à Tela de Início**.
 
 ### 🐳 Num servidor (VPS Linux)
 
